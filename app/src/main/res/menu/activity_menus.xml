@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/activitySync"
+        android:icon="@android:drawable/ic_popup_sync"
+        app:showAsAction="always"
+        android:title="@string/activity_b" />
+
+    <item android:id="@+id/activitySearch"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/activityPassword"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/activity_a"
+        />
+
+    <item
+        android:id="@+id/activityLogout"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/activity_d" />
+
+</menu>
